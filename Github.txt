@@ -1,0 +1,19 @@
+git clone +link repository
+
+git status -> Kiểm tra tệp
+
+(*) git cd Tên_repository -> chuyển vào thư mục muốn tạo
+
+-Thêm tệp lên Github:
+ (1)+ git add tên_file
+ (2)+ git add . -> Upload toàn bộ file lên Git
+    + git commit -m "comment"
+    + git push origin main(tên_branch)
+
+- Cập nhật file ở máy khi có file mới từ Github:
+ + git pull origin main(tên_nhánh)
+
+- git clone link_repository -b main(tên_nhánh)
+
+- Chuyển nhánh khác để làm:
+ + git checkout main(tên_nhánh_khác)
